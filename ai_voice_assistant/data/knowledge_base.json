@@ -1,0 +1,25 @@
+{
+  "greetings": {
+    "default": "Hello! Welcome to our service. How can I help you today?"
+  },
+  "farewells": {
+    "default": "Thank you for calling. Goodbye!"
+  },
+  "fallback": {
+    "default": "I'm sorry, I didn't quite understand that. Could you please repeat?"
+  },
+  "intents": {
+    "check_order_status": {
+      "keywords": ["order", "status", "track"],
+      "response": "To check your order status, I'll need your order number. Could you please provide it?"
+    },
+    "product_inquiry": {
+      "keywords": ["product", "information", "about"],
+      "response": "I can help with that. Which product are you interested in?"
+    },
+    "contact_support": {
+      "keywords": ["support", "human", "agent", "help"],
+      "response": "Let me connect you to a support agent. Please hold on."
+    }
+  }
+}
